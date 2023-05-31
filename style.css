@@ -38,7 +38,7 @@ body{
     border-radius: 0px;
     background-color: black;
     align-items: center;
-    width: 1259px;
+     width: 1259px; 
     height: 40px;
     font-size: 3.3em;
     display: flex;
@@ -133,9 +133,9 @@ body{
     }
     .cinquenta{
         margin-bottom: 75%;
-        margin-top: -2%;
+        margin-top: -32%;
         width: 210px;
-        margin-left: 5%;
+        margin-left: 10%;
 }
 .ver__maiss {
     position: absolute;
@@ -186,18 +186,14 @@ body{
 }
 .ver__mais {
     position: absolute;
-    bottom:0;
-    left: -1%;
+    top: 70vh;
     border-radius: 0px;
     background-color: black;
-    align-items: center;
-    width: 1259px;
-    height: 40px;
-    font-size: 2.3em;
-    display: flex;
-    justify-content: center;
-    margin-left: -30%;
+    align-items: center; 
+     width: 520px; 
+    
  
+
 }
 
 .ver__mais:hover{
@@ -228,6 +224,7 @@ body{
 @media(max-width:768px){
     body{
         background-color: black;
+        background-size: cover;
     }
 
 }
